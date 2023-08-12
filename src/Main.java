@@ -1,21 +1,19 @@
-package com.projects;
-
 // Importing all the packages
 
-import com.projects.ObjectReference.Element;
-import com.projects.ObjectReference.Frame;
-import com.projects.ObjectReference.Heading;
-import com.projects.ReferencePanel.BlockColorReference;
-import com.projects.ReferencePanel.ColorReferencePanel;
-import com.projects.ReferencePanel.GroupNumbers;
-import com.projects.ReferencePanel.PeriodPanels;
+import ObjectReference.Element;
+import ObjectReference.Frame;
+import ObjectReference.Heading;
+import ReferencePanel.BlockColorReference;
+import ReferencePanel.ColorReferencePanel;
+import ReferencePanel.GroupNumbers;
+import ReferencePanel.PeriodPanels;
 
 import javax.swing.JCheckBox;
 
 import java.awt.Rectangle;
 import java.awt.Dimension;
 
-import static com.projects.Reference.*;
+import static Reference.Reference.*;
 
 public class Main {
 
@@ -24,7 +22,7 @@ public class Main {
     private static final Element[] elements = new Element[119];
 
     // The frame is declared globally for methods to access them
-    private static final com.projects.ObjectReference.Frame frame = new Frame(new Dimension(1250, 850),  "Periodic Table");
+    private static final ObjectReference.Frame frame = new Frame(new Dimension(1250, 850),  "Periodic Table");
 
     private static void createReferencePanels(){
 
@@ -204,7 +202,7 @@ public class Main {
         // It contains 119 elements instead of 118 as the element index starts from 1
 
         // Title bar
-        new com.projects.Title.MenuBar(frame);
+        new Title.MenuBar(frame);
 
         new Heading(frame, "Modern Periodic Table", new Rectangle(10, 30, 300, 30));
 

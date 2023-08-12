@@ -1,15 +1,15 @@
-package Groups;
+package Periods;
 
 import ObjectReference.Frame;
-import ObjectReference.TextArea;
 import ObjectReference.Heading;
+import ObjectReference.TextArea;
 
-import java.awt.Dimension;
 import java.awt.Rectangle;
+import java.awt.Dimension;
 
-public class Group {
+public class Period {
 
-    Group(String frameTitle, String[] lines){
+    Period(String frameTitle, String[] lines){
 
         Frame frame = new Frame(new Dimension(650, 500), frameTitle);
 
