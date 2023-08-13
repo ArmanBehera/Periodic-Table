@@ -258,87 +258,7 @@ public class Reference {
             {"Tennessine is a synthetic chemical element with the symbol Ts and atomic number 117.", "It is the second-heaviest known element and the penultimate element of the 7th period of the periodic table.", "It was first synthesized in Dubna, Russia by a Russian-American collaboration in April 2010.", "It is expected to be a member of group 17 in the periodic table and a rather volatile post-transition metal.", "Oxidation states of Tennessine are -1, +1, +3 and +5(all are predicted).", "All its known isotopes have half-lives of less than one second. ²⁹³Ts and ²⁹⁴Ts have half-lives of 21ms and 112 ms respectively.", "Uses : No current practical application apart from scientific research.", temp + electronConfig[117]},
             {"Oganesson is a synthetic chemical element with the symbol Og and atomic number 118.", " It was first synthesized in 2002 at the Joint Institute for Nuclear Research (JINR) in Dubna, near Moscow, Russia", "by a joint team of Russian and American scientists.", "Other than nuclear properties, no properties of oganesson or its compounds have been measured.", "This is due to its extremely limited and expensive production and the fact that it decays very quickly.", "Oxidation states of Oganesson are -1, 0, +1, +2, +4 and +6(all are predicted).", temp + electronConfig[118]}};
 
-    /*public static ImageIcon[] iconsRef = {null, null, null,
-            new ImageIcon(ClassLoader.getSystemResource("Lithium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Beryllium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Boron.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Carbon.png")), null, null,
-            new ImageIcon(ClassLoader.getSystemResource("Fluorine.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Neon.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Sodium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Magnesium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Aluminium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Silicon.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Phosphorous.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Sulfur.png")), null, null,
-            new ImageIcon(ClassLoader.getSystemResource("Potassium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Calcium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Scandium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Titanium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Vanadium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Chromium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Manganese.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Iron.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Cobalt.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Nickel.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Copper.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Zinc.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Gallium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Germanium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Arsenic.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Selenium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Bromine.png")), null,
-            new ImageIcon(ClassLoader.getSystemResource("Rubidium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Strontium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Yttrium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Zirconium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Niobium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Molybdenum.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Technetium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Ruthenium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Rhodium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Palladium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Silver.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Cadmium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Indium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Tin.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Antimony.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Tellurium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Iodine.png")), null,
-            new ImageIcon(ClassLoader.getSystemResource("Cesium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Barium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Lanthanum.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Cerium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Praseodymium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Neodymium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Promethium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Samarium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Europium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Gadolinium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Terbium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Dysprosium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Holmium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Erbium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Thulium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Ytterbium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Lutetium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Hafnium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Tantalum.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Tungsten.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Rhenium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Osmium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Iridium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Platinum.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Gold.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Mercury.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Thallium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Lead.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Bismuth.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Polonium.png")),
-            new ImageIcon(ClassLoader.getSystemResource("Astatine.png")), null,
-            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-    }; */
-
+    
     public static ImageIcon[] iconsRef = new ImageIcon[119]; // Assuming you have elements up to atomic number 118
 
     public static void loadImages() {
@@ -348,14 +268,13 @@ public class Reference {
             ImageIcon imageIcon = null;
 
             try {
-                System.out.println(ClassLoader.getSystemResource(imagePath));
                 if (ClassLoader.getSystemResource(imagePath) == null) {
                     continue;
                 }
                 Image image = ImageIO.read(ClassLoader.getSystemResource(imagePath));
                 imageIcon = new ImageIcon(image);
             } catch (IOException e) {
-                e.printStackTrace();
+                continue;
             }
 
             iconsRef[atomicNumber] = imageIcon;

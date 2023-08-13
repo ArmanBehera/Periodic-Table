@@ -11,6 +11,7 @@ import ReferencePanel.PeriodPanels;
 import javax.swing.JCheckBox;
 
 import java.awt.Rectangle;
+import java.awt.Toolkit;
 import java.awt.Dimension;
 
 import static Reference.Reference.*;
