@@ -1,12 +1,2 @@
-# Periodic Table Program
-
-## Uses GridBagLayout 
-
-Contains 14 rows and 22 columns (inclusive spaces).
-
-## Row wise
-1st - Title bar
-2nd - Space
-3rd - Title
-4th - Space
-5th to 
+# Periodic-Table
+ This interactive and educational project allows users to explore the elements of the periodic table, learn their details, play a fun guessing game, and gain insights into the groups and periods of the elements.
